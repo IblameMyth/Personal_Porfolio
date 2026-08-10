@@ -880,8 +880,17 @@ footer > div:last-child {
     padding: 16px;
   }
 
+  header > div:first-child {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
   header nav ul {
-    gap: 16px;
+    gap: 12px 16px;
+  }
+
+  header nav ul li a {
+    font-size: 13px;
   }
 
   main > section:first-of-type {
@@ -889,13 +898,35 @@ footer > div:last-child {
     padding-bottom: 72px;
   }
 
+  main > section:first-of-type h1 {
+    font-size: clamp(2.4rem, 13vw, 3.4rem);
+    margin-bottom: 18px;
+  }
+
+  main > section:first-of-type .social-links {
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+
+  main > section:first-of-type .social-links > a {
+    padding: 9px 14px;
+    font-size: 12px;
+  }
+
+  main > section:first-of-type .hero-copy {
+    gap: 0;
+  }
+
   main > section:first-of-type .hero-stats {
     grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   main > section:first-of-type .hero-stat {
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    min-height: auto;
+    padding: 18px 20px;
   }
 
   main > section:first-of-type .hero-stat:last-child {
@@ -903,7 +934,26 @@ footer > div:last-child {
   }
 
   main > section:first-of-type > div:last-child {
-    width: min(100%, 340px);
+    width: min(100%, 290px);
+    margin: 0 auto;
+    aspect-ratio: 1;
+  }
+
+  main > section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  main > section:nth-of-type(2) {
+    padding-top: 12px;
+    padding-bottom: 36px;
+  }
+
+  main > section:nth-of-type(2) > div:first-child,
+  main > section:nth-of-type(3) > div:first-child,
+  main > section:nth-of-type(5) h2,
+  main > section:nth-of-type(6) > div:first-child {
+    margin-bottom: 24px;
   }
 
   main > section:nth-of-type(2) > div:last-child,
@@ -913,12 +963,63 @@ footer > div:last-child {
     grid-template-columns: 1fr;
   }
 
+  main > section:nth-of-type(2) > div:last-child > div,
+  main > section:nth-of-type(4) > div,
+  main > section:nth-of-type(5) > div:nth-child(3) > div,
+  main > section:nth-of-type(6) form {
+    width: 100%;
+  }
+
   main > section:nth-of-type(4) {
     gap: 14px;
   }
 
+  main > section:nth-of-type(3) {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    gap: 16px;
+  }
+
+  main > section:nth-of-type(3) .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  main > section:nth-of-type(3) .education-card {
+    padding: 18px;
+  }
+
+  main > section:nth-of-type(3) .location-btn {
+    width: 100%;
+    margin-top: 14px;
+  }
+
   main > section:nth-of-type(5) > div:nth-child(3) > div {
     min-height: 260px;
+    padding: 22px;
+  }
+
+  main > section:nth-of-type(5) > div:nth-child(2) {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  main > section:nth-of-type(5) > div:nth-child(2) button {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  main > section:nth-of-type(6) {
+    margin-bottom: 72px;
+  }
+
+  main > section:nth-of-type(6) form {
+    padding: 18px;
+    gap: 14px;
+  }
+
+  main > section:nth-of-type(6) form > div:nth-child(5),
+  main > section:nth-of-type(6) form button[type="submit"] {
+    grid-column: auto;
   }
 
   main > section:nth-of-type(6) form > div:nth-child(5),
@@ -930,8 +1031,88 @@ footer > div:last-child {
     justify-self: stretch;
   }
 
-  main > section:nth-of-type(3) .education-grid {
-    grid-template-columns: 1fr;
+  footer {
+    padding-top: 24px;
+    margin-bottom: 28px;
+  }
+
+  footer nav ul {
+    gap: 12px 18px;
+    margin-bottom: 22px;
+  }
+
+  footer .social-icons {
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  footer > div:nth-of-type(3) {
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    gap: 12px;
+    padding: 14px;
+  }
+
+  header nav ul {
+    gap: 10px 12px;
+  }
+
+  main > section:first-of-type {
+    padding-top: 42px;
+    padding-bottom: 56px;
+  }
+
+  main > section:first-of-type span {
+    font-size: 14px;
+    letter-spacing: 0.12em;
+  }
+
+  main > section:first-of-type .hero-stat h3 {
+    font-size: 1.35rem;
+  }
+
+  main > section:first-of-type .hero-stat p,
+  main > section:nth-of-type(2) > div:last-child p,
+  main > section:nth-of-type(3) p,
+  main > section:nth-of-type(5) > div:nth-child(3) > div p,
+  main > section:nth-of-type(6) p {
+    font-size: 13px;
+  }
+
+  main > section:nth-of-type(2) > div:last-child > div,
+  main > section:nth-of-type(4) > div,
+  main > section:nth-of-type(5) > div:nth-child(3) > div {
+    padding: 20px 18px;
+  }
+
+  main > section:nth-of-type(3) .education-card h4 {
+    font-size: 0.98rem;
+  }
+
+  main > section:nth-of-type(5) > div:nth-child(2) button,
+  main > section:nth-of-type(3) .location-btn,
+  main > section:nth-of-type(6) form button[type="submit"] {
+    max-width: 100%;
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 14px 16px;
+    font-size: 13px;
+  }
+
+  footer > div:first-child {
+    font-size: 18px;
+  }
+
+  footer nav ul li a {
+    font-size: 13px;
   }
 }
 .social-icons {
