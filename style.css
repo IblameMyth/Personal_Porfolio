@@ -836,6 +836,36 @@ footer > div:last-child {
   font-size: 12px;
 }
 
+.social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid #2a2a2a;
+  background-color: #1a1a1a;
+  color: #888888;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  border-color: #ff5e00;
+  color: #ff5e00;
+}
+
 @media (max-width: 1080px) {
   header {
     flex-wrap: wrap;
@@ -896,9 +926,40 @@ footer > div:last-child {
   main > section:first-of-type {
     padding-top: 54px;
     padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > section:first-of-type .hero-copy {
+    display: contents;
+  }
+
+  main > section:first-of-type .hero-copy > span {
+    order: 1;
+  }
+
+  main > section:first-of-type .hero-copy > h1 {
+    order: 2;
+  }
+
+  main > section:first-of-type > div:last-child {
+    display: block;
+    order: 3;
+    width: min(85vw, 320px);
+    margin: 18px auto 26px;
+  }
+
+  main > section:first-of-type .hero-copy > .social-links {
+    order: 4;
+  }
+
+  main > section:first-of-type .hero-copy > .hero-stats {
+    order: 5;
   }
 
   main > section:first-of-type h1 {
+    display: block;
     font-size: clamp(2.4rem, 13vw, 3.4rem);
     margin-bottom: 18px;
   }
@@ -931,12 +992,6 @@ footer > div:last-child {
 
   main > section:first-of-type .hero-stat:last-child {
     border-bottom: none;
-  }
-
-  main > section:first-of-type > div:last-child {
-    width: min(100%, 290px);
-    margin: 0 auto;
-    aspect-ratio: 1;
   }
 
   main > section {
@@ -1015,11 +1070,6 @@ footer > div:last-child {
   main > section:nth-of-type(6) form {
     padding: 18px;
     gap: 14px;
-  }
-
-  main > section:nth-of-type(6) form > div:nth-child(5),
-  main > section:nth-of-type(6) form button[type="submit"] {
-    grid-column: auto;
   }
 
   main > section:nth-of-type(6) form > div:nth-child(5),
@@ -1114,33 +1164,4 @@ footer > div:last-child {
   footer nav ul li a {
     font-size: 13px;
   }
-}
-.social-icons {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-.social-icons a {
-  width: 40px;
-  height: 40px;
-  min-width: 40px;  /* Prevents horizontal squishing */
-  min-height: 40px; /* Prevents vertical squishing */
-  flex-shrink: 0;   /* Keeps circles perfect inside flex containers */
-  border-radius: 50%;
-  border: 1px solid #2a2a2a;
-  background-color: #1a1a1a;
-  color: #888888;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  text-decoration: none;
-  box-sizing: border-box;
-  transition: border-color 0.2s ease, color 0.2s ease;
-}
-
-.social-icons a:hover {
-  border-color: #ff5e00;
-  color: #ff5e00;
 }
