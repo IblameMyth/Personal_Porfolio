@@ -512,6 +512,58 @@ main > section:nth-of-type(3) > div:last-child p {
   line-height: 1.9;
 }
 
+main > section:nth-of-type(3) .education-section {
+  margin-top: 18px;
+  text-align: left;
+}
+
+main > section:nth-of-type(3) .education-section h3 {
+  font-size: 1.35rem;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+main > section:nth-of-type(3) .education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+main > section:nth-of-type(3) .education-card {
+  background: linear-gradient(180deg, rgba(18, 22, 32, 0.96), rgba(11, 14, 22, 0.96));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px 20px 18px;
+  box-shadow: var(--shadow);
+}
+
+main > section:nth-of-type(3) .education-year {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+main > section:nth-of-type(3) .education-card h4 {
+  color: #ffffff;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+main > section:nth-of-type(3) .education-card p {
+  margin-bottom: 0;
+  color: #b0bad0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+main > section:nth-of-type(3) .location-btn {
+  margin-top: 18px;
+}
+
 main > section:nth-of-type(4) {
   margin-top: 12px;
   margin-bottom: 92px;
@@ -876,6 +928,10 @@ footer > div:last-child {
 
   main > section:nth-of-type(6) form button[type="submit"] {
     justify-self: stretch;
+  }
+
+  main > section:nth-of-type(3) .education-grid {
+    grid-template-columns: 1fr;
   }
 }
 .social-icons {
