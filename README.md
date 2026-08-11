@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=220&section=header&text=Mithilesh%20Laddha&fontSize=65&animation=fadeIn&fontAlignY=38&desc=Iron%20Man%20vs%20Captain%20America%20Theme%20%7C%20HTML5%20%26%20CSS3&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=220&section=header&text=Mithilesh+Laddha&fontSize=65&animation=fadeIn&fontAlignY=38&desc=Iron+Man+vs+Captain+America+Theme+%7C+HTML5+%26+CSS3&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
   <p align="center">
     <b>⚡ TEAM IRON MAN vs TEAM CAPTAIN AMERICA 🛡️</b><br />
@@ -22,7 +22,7 @@
 
   <p align="center">
     <a href="https://github.com/IblameMyth/Personal_Porfolio"><b>🌐 Live Demo</b></a> •
-    <a href="#-tech-stack"><b>⚡ Tech Stack</b></a> •
+    <a href="#-tech-stack--arsenal"><b>⚡ Tech Stack</b></a> •
     <a href="#-featured-projects--achievements"><b>🚀 Projects</b></a> •
     <a href="#-quick-start"><b>💻 Local Setup</b></a>
   </p>
@@ -67,11 +67,7 @@
 
 ## 🏆 Featured Projects & Achievements
 
-> 🏅 **Achievement Highlight:** Top 10 Finalist in **Tadoba Hackathon 2025**
+### 🏅 Achievements
+- 🥈 **Top 10 Finalist** — Tadoba Hackathon 2025
 
 ### 📦 Showcase Projects
-## 🏆 Featured Projects & Achievements
-
-> 🏅 **Achievement Highlight:** Top 10 Finalist in **Tadoba Hackathon 2025**
-
-### 📦 Key Projects
