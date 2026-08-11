@@ -1,69 +1,82 @@
 <div align="center">
 
-  # ⚡ Mithilesh Laddha — Personal Portfolio
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Mithilesh%20Laddha&fontSize=65&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20UI/UX%20Designer&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
-  **A sleek, modern, single-page dark-mode developer portfolio built with pure CSS3 magic.**
+  <p align="center">
+    <b>A sleek, high-performance, single-page developer showcase powered by pure HTML5 & CSS3 magic.</b>
+  </p>
 
-  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IblameMyth/Personal_Porfolio)
-  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
-  [![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)](#)
+  <!-- Badges -->
+  <p align="center">
+    <a href="https://github.com/IblameMyth/Personal_Porfolio">
+      <img src="https://img.shields.io/github/stars/IblameMyth/Personal_Porfolio?style=for-the-badge&logo=github&color=FF4500" alt="Stars" />
+    </a>
+    <a href="https://github.com/IblameMyth/Personal_Porfolio/network/members">
+      <img src="https://img.shields.io/github/forks/IblameMyth/Personal_Porfolio?style=for-the-badge&logo=github&color=00F5FF" alt="Forks" />
+    </a>
+    <a href="https://github.com/IblameMyth/Personal_Porfolio/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-7B2CBF?style=for-the-badge" alt="License" />
+    </a>
+  </p>
 
-  [**View Live Demo**](https://iblamekmyth.github.io/Personal_Porfolio/) · [**Report Issue**](https://github.com/IblameMyth/Personal_Porfolio/issues) · [**Request Feature**](https://github.com/IblameMyth/Personal_Porfolio/issues)
+  <p align="center">
+    <a href="https://github.com/IblameMyth/Personal_Porfolio"><b>🌐 Live Demo</b></a> •
+    <a href="#-tech-stack"><b>⚡ Tech Stack</b></a> •
+    <a href="#-featured-projects"><b>🚀 Projects</b></a> •
+    <a href="#-quick-start"><b>💻 Local Setup</b></a>
+  </p>
+
+  <br />
 
 </div>
 
 ---
 
-## 🌟 Overview
+## ⚡ Visual Highlights & Aesthetics
 
-Welcome to my personal developer showcase! Built from the ground up without heavy JS frameworks, this single-page portfolio leverages modern **CSS3 grid/flexbox**, custom **CSS variables**, and **dynamic conic-gradients** to deliver a lightweight, high-performance visual experience with a dark-mode aesthetic.
-
-### Key Highlights
-
-- 🎯 **Dark Mode Aesthetic:** Neon accents on deep dark backgrounds engineered for modern UI feel.
-- ⭕ **Dynamic Conic Skill Rings:** Zero-JS progress meters driven entirely by custom CSS variables (`--value: XX%`).
-- 📱 **Fully Responsive:** Smooth layout adjustments across mobile, tablet, and ultra-wide desktops.
-- 🏎️ **Ultra Lightweight:** Zero npm bloat or heavy build steps—pure HTML & native CSS.
-- 🎨 **Typography:** Powered by [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) for modern technical feel.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🌙 Dark Mode Aesthetic</h3>
+      <p>Custom-engineered visual hierarchy featuring neon cyan/purple accents, sleek backdrop blurs, and glassmorphism UI components optimized for night viewing.</p>
+    </td>
+    <td width="50%">
+      <h3>🎯 Dynamic Conic Skill Rings</h3>
+      <p>Zero-JavaScript progress meters rendered entirely with CSS3 <code>conic-gradient()</code> and responsive CSS custom properties (<code>--value</code>).</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📱 Fluid Grid & Flex Layout</h3>
+      <p>Fully responsive architecture using CSS Grid & Flexbox, ensuring sub-second renders and seamless adaptation across mobile, tablet, and desktop viewports.</p>
+    </td>
+    <td width="50%">
+      <h3>🏎️ Zero Dependency Overhead</h3>
+      <p>Built completely framework-free. No heavy JS bundles, npm bloat, or complex build steps—just lightweight, semantic markup and custom styles.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🧭 Portfolio Structure
+## 🛠️ Tech Stack & Arsenal
 
-| Section | Description |
+<div align="center">
+
+| Category | Technologies Used |
 | :--- | :--- |
-| **Hero** | High-impact introduction, social quick-links, and key stats. |
-| **Services** | Core service offerings organized in glassmorphism cards. |
-| **About Me** | Background, education timeline, and achievements (**Top 10 — Tadoba Hackathon 2025**). |
-| **Skills** | Interactive CSS `conic-gradient()` progress rings for web & design tech. |
-| **Portfolio** | Featured GitHub projects (*ExpenseWise*, *Inventory System*, *TaskNet*). |
-| **Contact** | Integrated direct email, phone connection, and social icons. |
+| **Frontend Core** | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> |
+| **Styling & FX** | `CSS Variables` `CSS Grid` `Flexbox` `Conic Gradients` `Glassmorphism` |
+| **Icons & Typography** | <img src="https://img.shields.io/badge/FontAwesome_6-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Fonts-Space_Grotesk-4285F4?style=for-the-badge&logo=google&logoColor=white" /> |
+| **Database & Logic** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" /> |
+| **UI/UX Design** | <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> |
+
+</div>
 
 ---
 
-## 💻 Tech Stack
+## 🏆 Featured Projects & Achievements
 
-- **Markup:** HTML5 (Semantic & Accessible Structure)
-- **Styling:** CSS3 (Variables, CSS Grid, Flexbox, Animations, Conic Gradients)
-- **Icons:** [FontAwesome 6](https://fontawesome.com/)
-- **Typography:** Google Fonts (`Space Grotesk`)
+> 🏅 **Achievement Highlight:** Top 10 Finalist in **Tadoba Hackathon 2025**
 
----
-
-## 🛠️ Featured Projects Highlighted
-
-1. 💳 **ExpenseWise** — Personal finance tracker UI focused on clean metrics.
-2. 📦 **Inventory System** — Management panel for real-time asset tracking.
-3. 📋 **TaskNet** — Dynamic productivity & task organization interface.
-
----
-
-## 📁 Repository Layout
-
-```bash
-Personal_Porfolio/
-├── 📄 index.html           # Main semantic structure
-├── 🎨 style.css            # Custom CSS3 theme & dynamic variables
-├── 📜 Mithilesh_Laddha.pdf # Resume / CV download asset
-└── 🖼️ Me (2).jpeg          # High-resolution profile avatar
+### 📦 Key Projects
