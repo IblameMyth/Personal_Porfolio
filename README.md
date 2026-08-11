@@ -37,7 +37,7 @@
 <table>
   <tr>
     <td width="50%">
-      <h3>🌙 Dark Mode Aesthetic</h3>
+      <h3>🌙 Iron Man Vs Captain America Aesthetic</h3>
       <p>Custom-engineered visual hierarchy featuring neon cyan/purple accents, sleek backdrop blurs, and glassmorphism UI components optimized for night viewing.</p>
     </td>
     <td width="50%">
