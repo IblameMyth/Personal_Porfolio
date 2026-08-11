@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=220&section=header&text=Mithilesh+Laddha&fontSize=65&animation=fadeIn&fontAlignY=38&desc=Iron+Man+vs+Captain+America+Theme+%7C+HTML5+%26+CSS3&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=200&section=header&text=Mithilesh%20Laddha&fontSize=60&animation=fadeIn" width="100%" alt="Header Banner" />
 
   <p align="center">
     <b>⚡ TEAM IRON MAN vs TEAM CAPTAIN AMERICA 🛡️</b><br />
