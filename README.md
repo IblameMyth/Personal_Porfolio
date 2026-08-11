@@ -22,7 +22,7 @@
   <p align="center">
     <a href="https://github.com/IblameMyth/Personal_Porfolio"><b>🌐 Live Demo</b></a> •
     <a href="#-tech-stack"><b>⚡ Tech Stack</b></a> •
-    <a href="#-featured-projects"><b>🚀 Projects</b></a> •
+    <a href="#-featured-projects--achievements"><b>🚀 Projects</b></a> •
     <a href="#-quick-start"><b>💻 Local Setup</b></a>
   </p>
 
@@ -37,7 +37,7 @@
 <table>
   <tr>
     <td width="50%">
-      <h3>🌙 Iron Man Vs Captain America Aesthetic</h3>
+      <h3>🌙 Dark Mode Aesthetic</h3>
       <p>Custom-engineered visual hierarchy featuring neon cyan/purple accents, sleek backdrop blurs, and glassmorphism UI components optimized for night viewing.</p>
     </td>
     <td width="50%">
@@ -50,6 +50,13 @@
       <h3>📱 Fluid Grid & Flex Layout</h3>
       <p>Fully responsive architecture using CSS Grid & Flexbox, ensuring sub-second renders and seamless adaptation across mobile, tablet, and desktop viewports.</p>
     </td>
+    <td width="50%">
+      <h3>🏎️ Zero Dependency Overhead</h3>
+      <p>Built completely framework-free. No heavy JS bundles, npm bloat, or complex build steps—just lightweight, semantic markup and custom styles.</p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 🛠️ Tech Stack & Arsenal
