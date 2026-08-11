@@ -50,13 +50,6 @@
       <h3>📱 Fluid Grid & Flex Layout</h3>
       <p>Fully responsive architecture using CSS Grid & Flexbox, ensuring sub-second renders and seamless adaptation across mobile, tablet, and desktop viewports.</p>
     </td>
-    <td width="50%">
-      <h3>🏎️ Zero Dependency Overhead</h3>
-      <p>Built completely framework-free. No heavy JS bundles, npm bloat, or complex build steps—just lightweight, semantic markup and custom styles.</p>
-    </td>
-  </tr>
-</table>
-
 ---
 
 ## 🛠️ Tech Stack & Arsenal
